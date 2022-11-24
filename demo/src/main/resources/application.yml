@@ -1,0 +1,18 @@
+
+SalonDetails:
+  name: AR Salon and Day Spa Services
+  address: 1234 Main Street
+  city: Anytown
+  state: ND
+  zipcode: 58201
+  phone: 555-123-4567
+server:
+  port: 8080
+spring:
+  datasource:
+    url: jdbc:postgresql://127.0.0.1:5432/Salon
+    driver-class-name: org.postgresql.Driver
+    password: 2004561
+    username: postgres
+
+
